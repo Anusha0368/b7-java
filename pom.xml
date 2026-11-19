@@ -49,10 +49,6 @@
           </archive>
         </configuration>
       </plugin>
-      <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-</properties>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
@@ -75,4 +71,8 @@
       </plugin>
     </plugins>
   </build>
+   <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 </project>
